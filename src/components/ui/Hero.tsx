@@ -4,7 +4,7 @@ import { Highlight } from './Highlight';
 
 export default function Hero() {
   return (
-    <section className="min-h-screen flex items-center relative px-10 md:px-20">
+    <section className="min-h-screen flex items-center relative px-8 md:px-10 pt-15 md:pt-0">
       {/* Background Watermark */}
     {/* <motion.div
       className="absolute right-0 -bottom-8 text-[25vw] font-bold text-outline select-none leading-none z-0 italic pointer-events-none
