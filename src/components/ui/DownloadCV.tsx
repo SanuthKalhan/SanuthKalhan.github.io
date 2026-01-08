@@ -5,7 +5,7 @@ import { Download } from 'lucide-react';
 export default function DownloadCV() {
   return (
     <motion.a
-      href="/assets/SanuthKalhan_Wanniarachchi_SE.pdf"
+      href="assets/SanuthKalhan_Wanniarachchi_SE.pdf"
       download
       initial={{ y: -100, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
