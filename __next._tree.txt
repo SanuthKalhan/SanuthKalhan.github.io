@@ -1,0 +1,4 @@
+:HL["/_next/static/chunks/fdfbb256116af35a.css","style"]
+:HL["assets/found.webp","image"]
+:HL["/assets/logo.webp","image"]
+0:{"buildId":"7EzvacMw4_M1c7a7zTvlL","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
