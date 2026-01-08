@@ -9,7 +9,6 @@ export default function DownloadCV() {
       download
       initial={{ y: -100, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
-      // Responsive padding: smaller on mobile (px-4 py-2.5), original on desktop (md:px-6 md:py-4)
       className="fixed top-5 right-5 md:top-5 md:right-10 z-100 flex items-center gap-2 bg-black text-white px-4 py-2.5 md:px-6 md:py-4 rounded-full shadow-2xl hover:scale-105 transition-all group hover:text-emerald-500"
     >
       {/* Short text for mobile, Full text for desktop */}
