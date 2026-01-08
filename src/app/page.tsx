@@ -9,7 +9,7 @@ export default function Portfolio() {
   return (
 
     <main className="relative min-h-screen selection:bg-emerald-500/30 overflow-x-clip">
-      {/* SCROLLING BACKGROUND FEATURES */}
+      {/*  SCROLLING BACKGROUND FEATURES  */}
       <div className="bg-canvas">
         <div className="bg-grid-blueprint" />
         <div className="bg-math-blueprint" />
