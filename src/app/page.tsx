@@ -7,7 +7,7 @@ import { Highlight } from '../components/ui/Highlight';
 
 export default function Portfolio() {
   return (
-    // Added overflow-x-clip to prevent decorative math symbols from breaking layout width
+
     <main className="relative min-h-screen selection:bg-emerald-500/30 overflow-x-clip">
       {/* SCROLLING BACKGROUND FEATURES */}
       <div className="bg-canvas">
@@ -28,7 +28,6 @@ export default function Portfolio() {
         </div>
       </div>
 
-      {/* Responsive Padding: px-6 on mobile, px-10 on larger screens */}
       <div className="relative px-6 md:px-10 z-10">
         <DownloadCV />
         <Hero />
@@ -49,7 +48,6 @@ export default function Portfolio() {
 
             {/* Right Column: Image & Metric */}
             <div className="flex flex-col items-center md:items-start relative">
-               {/* Faint Derivation Sign - Adjusted for mobile scale */}
                <div className="absolute -top-10 -right-10 md:-top-16 md:-right-16 text-[80px] md:text-[120px] font-serif text-emerald-500/50 select-none pointer-events-none italic">
                  lim
                  <span className="block text-xs md:text-sm text-center -mt-4 md:-mt-8 font-sans">Δx→0</span>
@@ -73,7 +71,6 @@ export default function Portfolio() {
 
         {/* CHAPTER 02: THE CRAFT (EXPERIENCE) */}
         <Chapter number="02" title="Proficiency">
-          {/* Adjusted padding: pl-12 on mobile to give text more room */}
           <div className="relative grid grid-cols-1 md:grid-cols-2 gap-12 pl-12 md:pl-32">
             
             {/* THE ARCHITECTURAL TIMELINE */}
