@@ -221,12 +221,12 @@ export default function Portfolio() {
                   <div className="absolute -top-12 -left-6 text-5xl md:text-6xl text-black/20 select-none font-serif">∫</div>
                   <p className="text-xl md:text-3xl font-serif max-w-2xl leading-snug">
                     "Cloud-Resilient{" "}<Highlight delay={0.2}>NDVI Estimation</Highlight> for Smallholder Paddy Fields from Single-Date Sentinel-1 SAR Using an {" "}<Highlight delay={0.4}>Enhanced U-Net++</Highlight>" 
-                    <span className="block text-base md:text-lg mt-4 font-sans italic text-gray-500">— <span className='text-emerald-500/80'>ICARC 2026</span> (in proceeding)</span>
+                    <span className="block text-base md:text-lg mt-4 font-sans italic text-gray-500">— <span className='text-emerald-500/80'>ICARC 2026</span></span>
                   </p>
                 </div>
-                <div className="w-full md:w-auto text-center bg-black text-white px-6 py-3 md:py-2 text-[10px] md:text-xs uppercase tracking-tighter hover:bg-emerald-500 transition-colors cursor-pointer">
+                <a href="https://ieeexplore.ieee.org/document/11454026" target="_blank" rel="noopener noreferrer" className="w-full md:w-auto text-center bg-black text-white px-6 py-3 md:py-2 text-[10px] md:text-xs uppercase tracking-tighter hover:bg-emerald-500 transition-colors cursor-pointer">
                     IEEE&nbsp;Xplore
-                </div>
+                </a>
             </div>
           </div>
         </Chapter>
